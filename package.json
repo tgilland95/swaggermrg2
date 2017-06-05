@@ -1,0 +1,27 @@
+{
+  "name": "swaggermrg2",
+  "version": "1.0.0",
+  "description": "swaggermrg2",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --delay \"tests/*.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byu-oit/swaggermrg2.git"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/byu-oit/swaggermrg2/issues"
+  },
+  "homepage": "https://github.com/byu-oit/swaggermrg2#readme",
+  "private": true,
+  "dependencies": {
+    "node-byuapi-framework": "git://github.com/byu-oit-appdev/node-byuapi-framework.git"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
